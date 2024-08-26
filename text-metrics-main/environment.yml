@@ -1,0 +1,32 @@
+name: language_cognition_env
+channels:
+  - pytorch
+  - huggingface
+  - defaults
+  - conda-forge
+  - nvidia
+  # - r
+dependencies:
+  - python=3.9
+  - pandas
+  - numpy
+  - pyyaml
+  # - tabulate
+  - datasets
+  # - cuda-toolkit
+  # - pytorch-cuda=11.8
+  - pytorch=2.2
+  - jupyter
+  - ipykernel
+  - matplotlib
+  - transformers=4.40.1
+  - pip
+  - spacy
+  # - r-essentials
+  # - r-gratia
+  - pip:
+      # - dvc
+      - git+https://github.com/lacclab/text-metrics.git
+      # - dvclive
+      # - rpy2
+      # - -e . # For development purposes

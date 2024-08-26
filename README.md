@@ -34,9 +34,9 @@ We expect the following directory structure:
 
 ## Preprocessing Instructions:
 
-After obtaining the CELER and GECO eye movement data, run `text2surprisal.py` to obtain the combined CELER and Surprisal from an LLM.
+After obtaining the CELER and GECO eye movement data, utilize `text-metrics-main` by [LACC Lab](https://github.com/lacclab/text-metrics). Run `text2surprisal.py` to obtain the combined CELER and Surprisal from an LLM.
 
-For the data to be combined and inputted into the analysis R file, run `merge_data.py`. This will merge the CELER and GECO data and output a `merged_data.csv` file.
+For the data to be combined and inputted into the analysis R file as expected, run `merge_data.py`. This will merge the CELER and GECO data and output a `merged_data.csv` file.
 
 We now expect the following directory structure:
 ```
