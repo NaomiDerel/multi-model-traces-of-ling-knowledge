@@ -31,9 +31,9 @@ library(vroom)
 set.seed(214)
 
 
-CELER_PATH = "Project/celer/" #local path to CELER dataset (NOTE: changed)
+CELER_PATH = "celer/" #local path to CELER dataset (NOTE: changed)
 # Path to the new file containing surprisal from new language models
-SURP_PATH = "Project/surp_data/"
+SURP_PATH = "surprisal_data/"
 DATA_SUBSET = "ALL" # "ALL" all, 1 v1, 2 participants new to v2
 NORM_TIMES = FALSE # Z normalize reading times
 BY_L1 = FALSE # for Analysis 1
