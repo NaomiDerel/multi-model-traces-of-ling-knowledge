@@ -101,7 +101,7 @@ print("Preprocessing CELER data")
 #read fixation report
 # report_ia <-read.table(paste0(CELER_PATH, "data_v2.0/sent_ia.tsv"), header = TRUE, quote = "", sep = "\t")
 # Read the new data table
-report_ia <-read.table(paste0(SURP_PATH, "merge_output4.tsv"), header = TRUE, quote = "", sep = "\t")
+report_ia <-read.table(paste0(SURP_PATH, "merge_data.tsv"), header = TRUE, quote = "", sep = "\t")
 # report_ia <- read_tsv(paste0(SURP_PATH, "merge_output4.tsv"))
 
 #subset to v1.0 or participants new to v2.0
