@@ -4,7 +4,7 @@ The study of eye movement in reading provides insights into language processing 
 
 The ability of large language models to process language positions them as valuable tools in cognitive models of sentence processing. Counterintuitively to NLP paradigms of "Larger is Better", [Oh and Schuler, 2023](https://arxiv.org/pdf/2212.12131) found that models with more parameters and lower perplexity often produce surprisal estimates that are less predictive of human reading times.
 
-This study analyzes the effect of model perplexity in large transformer models and explores the impact of English proficiency on language processing. Findings from statistical analyses support [Berzak and Levy, 2023](https://direct.mit.edu/opmi/article/doi/10.1162/opmi_a_00084/116138/Eye-Movement-Traces-of-Linguistic-Knowledge-in)'s conclusions regarding L1 and L2 eye movements, and confirm \cite{oh2023does}'s observations that larger transformers' surprisal estimates provide a poorer fit to human reading times.
+This study analyzes the effect of model perplexity in large transformer models and explores the impact of English proficiency on language processing. Findings from statistical analyses support [Berzak and Levy, 2023](https://direct.mit.edu/opmi/article/doi/10.1162/opmi_a_00084/116138/Eye-Movement-Traces-of-Linguistic-Knowledge-in)'s conclusions regarding L1 and L2 eye movements.
 
 ## Data Installation Instructions:
 
